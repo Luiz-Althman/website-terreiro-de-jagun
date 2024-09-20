@@ -9,6 +9,14 @@
     --brown-100: #493e15;
     --brown-200: #46280e;
     --brown-300: #2c1800;
+    --yellow: #fac847;
+    --blue: #2929f8;
+    --background-about: url('images/DSC_2905.jpg');
+    --background-followus: url('images/DSC06260.jpg');
+}
+
+html {
+    scroll-behavior: smooth !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,13 +27,78 @@
 }
 
 body {
+    background: var(--white);
+    font-family: Quicksand, sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+a {
     color: var(--brown-300);
-    background: var(--green-100);
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
 }
 
 @layer utilities {
     .text-balance {
         text-wrap: balance;
+    }
+}
+.slick-prev,
+.slick-next {
+    width: 44px !important; /* Largura das setas */
+    height: 44px !important; /* Altura das setas */
+    background-color: transparent !important; /* Cor de fundo transparente */
+    border-radius: 50% !important; /* Forma das setas */
+    z-index: 10 !important; /* Coloca as setas acima de outros elementos */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 2rem !important; /* Tamanho do ícone das setas */
+    color: var(--white) !important; /* Cor das setas */
+}
+
+.slick-prev {
+    left: 10px !important; /* Distância da borda esquerda */
+}
+
+.slick-next {
+    right: 10px !important; /* Distância da borda direita */
+}
+
+.background {
+    background: var(--background-about) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .fadeImage {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.backgroundFollowUs {
+    background: var(--background-followus) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .fadeImage {
+        width: 100%;
+        height: 100%;
     }
 }

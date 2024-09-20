@@ -1,15 +1,20 @@
+'use client';
+
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { OneSection } from './components/OneSection';
+import { Introduction } from './components/Introduction';
+import { About } from './components/About';
+import { LocationMap } from './components/LocationMap';
+import { FollowUs } from './components/FollowUs';
 
 export default function App() {
     return (
-        <div className="text-[var(--white)]">
+        <div>
             <Header />
-            <div className="container mx-auto">
-                <OneSection />
-                <OneSection />
-            </div>
+            <Introduction />
+            <About />
+            <LocationMap />
+            <FollowUs />
             <Footer />
         </div>
     );
