@@ -4,6 +4,7 @@ import FESTA from '@/src/app/images/DSC01155.jpg';
 import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998.jpg';
 
 import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
+import Image from 'next/image';
 
 export function About() {
     return (
@@ -26,14 +27,15 @@ export function About() {
                             nostrum magni ullam sunt temporibus. Enim suscipit
                             placeat dignissimos repellat!
                         </p>
-                        <img
-                            src={FOTO_PAI_MAE_CIDALIA.src}
+                        <Image
+                            src={FOTO_PAI_MAE_CIDALIA}
                             alt=""
-                            className="w-1/2"
+                            width={150}
+                            height={150}
                         />
                     </div>
                     <div className="flex my-10 items-center">
-                        <img src={FESTA.src} alt="" className="w-1/2" />
+                        <Image src={FESTA} alt="" width={150} height={150} />
                         <p className="text-[var(--white)] w-1/2 text-right">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Dolores provident dolorum veniam dignissimos
@@ -50,7 +52,12 @@ export function About() {
                             nostrum magni ullam sunt temporibus. Enim suscipit
                             placeat dignissimos repellat!
                         </p>
-                        <img src={Terreiro_1.src} alt="" className="w-1/2" />
+                        <Image
+                            src={Terreiro_1}
+                            alt=""
+                            width={150}
+                            height={150}
+                        />
                     </div>
                 </div>
             </div>

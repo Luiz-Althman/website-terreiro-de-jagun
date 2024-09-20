@@ -3,6 +3,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
 
 const settings = {
     dots: true,
@@ -35,10 +36,11 @@ export const Carousel = ({ data }: any) => {
                             className="flex flex-col relative mr-5"
                         >
                             <a href={item.link}>
-                                <img
+                                <Image
                                     src={item.imageUrl.src}
                                     alt={item.name}
-                                    className="w-full h-[25rem] object-cover"
+                                    className="h-[25rem] object-cover"
+                                    fill
                                 />
                             </a>
                         </div>

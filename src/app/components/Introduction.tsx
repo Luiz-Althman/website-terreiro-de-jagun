@@ -1,6 +1,8 @@
 'use client';
 import { Carousel } from './Carousel';
 
+import Image from 'next/image';
+
 import Brasao from '@/src/app/images/logo.jpeg';
 import FOTO_2 from '@/src/app/images/dodo1.jpg';
 import FOTO from '@/src/app/images/DSC_3061.jpg';
@@ -47,7 +49,13 @@ export function Introduction() {
                 <h1 className="font-bold my-5 uppercase">
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
                 </h1>
-                <img src={Brasao.src} alt="Brasão do terreiro de Jagun" />
+                <Image
+                    src={Brasao.src}
+                    alt="Brasão do terreiro de Jagun"
+                    width={0}
+                    height={150}
+                    style={{ width: '100%' }}
+                />
             </header>
             <article className="mt-5">
                 <h3 className="uppercase">
