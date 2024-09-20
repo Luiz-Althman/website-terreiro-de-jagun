@@ -1,10 +1,9 @@
 'use client';
+import Image from 'next/image';
 
 import FESTA from '@/src/app/images/DSC01155.jpg';
 import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998.jpg';
-
 import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
-import Image from 'next/image';
 
 export function About() {
     return (
@@ -30,12 +29,19 @@ export function About() {
                         <Image
                             src={FOTO_PAI_MAE_CIDALIA}
                             alt=""
-                            width={150}
+                            width={0}
                             height={150}
+                            style={{ width: '50%' }}
                         />
                     </div>
                     <div className="flex my-10 items-center">
-                        <Image src={FESTA} alt="" width={150} height={150} />
+                        <Image
+                            src={FESTA}
+                            alt=""
+                            width={0}
+                            height={150}
+                            style={{ width: '50%' }}
+                        />
                         <p className="text-[var(--white)] w-1/2 text-right">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Dolores provident dolorum veniam dignissimos
@@ -55,8 +61,9 @@ export function About() {
                         <Image
                             src={Terreiro_1}
                             alt=""
-                            width={150}
+                            width={0}
                             height={150}
+                            style={{ width: '50%' }}
                         />
                     </div>
                 </div>

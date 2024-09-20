@@ -50,7 +50,7 @@ export function Introduction() {
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
                 </h1>
                 <Image
-                    src={Brasao.src}
+                    src={Brasao}
                     alt="Brasão do terreiro de Jagun"
                     width={0}
                     height={150}

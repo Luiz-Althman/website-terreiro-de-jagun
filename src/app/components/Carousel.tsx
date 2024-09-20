@@ -37,7 +37,7 @@ export const Carousel = ({ data }: any) => {
                         >
                             <a href={item.link}>
                                 <Image
-                                    src={item.imageUrl.src}
+                                    src={item.imageUrl}
                                     alt={item.name}
                                     className="h-[25rem] object-cover"
                                     fill
