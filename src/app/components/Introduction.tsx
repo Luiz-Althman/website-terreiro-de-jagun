@@ -1,8 +1,9 @@
 'use client';
+
+/* eslint-disable @next/next/no-img-element */
+
 import { Carousel } from './Carousel';
-
-import Image, { StaticImageData } from 'next/image';
-
+import { StaticImageData } from 'next/image';
 import Brasao from '@/src/app/images/logo.jpeg';
 import FOTO_2 from '@/src/app/images/dodo1.jpg';
 import FOTO from '@/src/app/images/DSC_3061.jpg';

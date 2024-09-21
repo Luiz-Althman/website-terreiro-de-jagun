@@ -5,7 +5,6 @@
 import FESTA from '@/src/app/images/DSC01155.jpg';
 import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998.jpg';
 import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
-import Image from 'next/image';
 
 export function About() {
     return (
