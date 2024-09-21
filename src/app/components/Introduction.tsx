@@ -58,12 +58,10 @@ export function Introduction() {
                 <h1 className="font-bold my-5 uppercase">
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
                 </h1>
-                <Image
-                    src={Brasao}
+                <img
+                    src={Brasao.src}
                     alt="Brasão do terreiro de Jagun"
-                    width={0}
-                    height={150}
-                    style={{ width: '100%' }}
+                    className="w-full"
                 />
             </header>
             <article className="mt-5">

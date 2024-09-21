@@ -36,11 +36,10 @@ export const Carousel = ({ data }: CarouselTypeArray) => {
                             key={`idx${index}`}
                             className="flex flex-col relative mr-5"
                         >
-                            <Image
-                                src={item.imageUrl}
+                            <img
+                                src={item.imageUrl.src}
                                 alt={item.name}
-                                className="h-[25rem] object-cover"
-                                fill
+                                className="w-full h-[25rem] object-cover"
                             />
                         </div>
                     ))}

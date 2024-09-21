@@ -1,9 +1,11 @@
 'use client';
-import Image from 'next/image';
+
+/* eslint-disable @next/next/no-img-element */
 
 import FESTA from '@/src/app/images/DSC01155.jpg';
 import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998.jpg';
 import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
+import Image from 'next/image';
 
 export function About() {
     return (
@@ -26,21 +28,19 @@ export function About() {
                             nostrum magni ullam sunt temporibus. Enim suscipit
                             placeat dignissimos repellat!
                         </p>
-                        <Image
-                            src={FOTO_PAI_MAE_CIDALIA}
+                        <img
+                            src={FOTO_PAI_MAE_CIDALIA.src}
                             alt=""
-                            width={0}
-                            height={150}
-                            style={{ width: '50%' }}
+                            className="w-1/2"
+                            // style={{ width: '45%' }}
                         />
                     </div>
                     <div className="flex my-10 items-center">
-                        <Image
-                            src={FESTA}
+                        <img
+                            src={FESTA.src}
                             alt=""
-                            width={0}
-                            height={150}
-                            style={{ width: '50%' }}
+                            className="w-1/2"
+                            // style={{ width: '45%' }}
                         />
                         <p className="text-[var(--white)] w-1/2 text-right">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -58,12 +58,11 @@ export function About() {
                             nostrum magni ullam sunt temporibus. Enim suscipit
                             placeat dignissimos repellat!
                         </p>
-                        <Image
-                            src={Terreiro_1}
+                        <img
+                            src={Terreiro_1.src}
                             alt=""
-                            width={0}
-                            height={150}
-                            style={{ width: '50%' }}
+                            className="w-1/2"
+                            // style={{ width: '45%' }}
                         />
                     </div>
                 </div>
