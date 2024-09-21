@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
-import { CarouselTypeArray } from './Introduction';
+import { CarouselTypeArray, CarouselType } from './Introduction';
 
 const settings = {
     dots: true,
@@ -31,19 +31,17 @@ export const Carousel = ({ data }: CarouselTypeArray) => {
         <div className="relative mt-6">
             <Slider {...settings}>
                 {data !== undefined &&
-                    data.map((item: any, index: any) => (
+                    data.map((item: CarouselType, index: number) => (
                         <div
                             key={`idx${index}`}
                             className="flex flex-col relative mr-5"
                         >
-                            <a href={item.link}>
-                                <Image
-                                    src={item.imageUrl}
-                                    alt={item.name}
-                                    className="h-[25rem] object-cover"
-                                    fill
-                                />
-                            </a>
+                            <Image
+                                src={item.imageUrl}
+                                alt={item.name}
+                                className="h-[25rem] object-cover"
+                                fill
+                            />
                         </div>
                     ))}
             </Slider>
