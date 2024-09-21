@@ -6,6 +6,7 @@
     --white: #ffffff;
     --green-100: #88b447;
     --green-200: #5c9127;
+    --green-300: #6a9d36;
     --brown-100: #493e15;
     --brown-200: #46280e;
     --brown-300: #2c1800;
@@ -48,7 +49,7 @@ h2 {
     font-weight: 600;
 }
 h3 {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 p {
