@@ -1,7 +1,7 @@
 'use client';
 import { Carousel } from './Carousel';
 
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 import Brasao from '@/src/app/images/logo.jpeg';
 import FOTO_2 from '@/src/app/images/dodo1.jpg';
@@ -12,8 +12,17 @@ import FOTO_5 from '@/src/app/images/DSC_7875.jpg';
 import FOTO_6 from '@/src/app/images/DSC02285.jpg';
 import FOTO_7 from '@/src/app/images/IMG_7027.jpg';
 
+export interface CarouselType {
+    imageUrl: StaticImageData;
+    name: string;
+}
+
+export interface CarouselTypeArray {
+    data: CarouselType[];
+}
+
 export function Introduction() {
-    const items: any = [
+    const items: CarouselType[] = [
         {
             imageUrl: FOTO_3,
             name: 'Festa',

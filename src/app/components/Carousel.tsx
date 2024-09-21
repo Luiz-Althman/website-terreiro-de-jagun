@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
+import { CarouselTypeArray } from './Introduction';
 
 const settings = {
     dots: true,
@@ -25,7 +26,7 @@ const settings = {
     ],
 };
 
-export const Carousel = ({ data }: any) => {
+export const Carousel = ({ data }: CarouselTypeArray) => {
     return (
         <div className="relative mt-6">
             <Slider {...settings}>
