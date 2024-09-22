@@ -20,8 +20,9 @@ const settings = {
         {
             breakpoint: 600,
             settings: {
+                dots: false,
                 slidesToShow: 1,
-                variableWidth: true,
+                variableWidth: false,
                 slidesToScroll: 1,
             },
         },
@@ -41,7 +42,7 @@ export const Carousel = ({ data }: CarouselTypeArray) => {
                             <img
                                 src={item.imageUrl.src}
                                 alt={item.name}
-                                className="w-full h-[25rem] object-cover"
+                                className="w-full sm:h-[25rem] h-[10rem] object-cover"
                             />
                         </div>
                     ))}

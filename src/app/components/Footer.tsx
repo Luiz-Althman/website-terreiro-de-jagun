@@ -2,7 +2,13 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import { FaWhatsapp, FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
+import {
+    FaWhatsapp,
+    FaInstagram,
+    FaFacebook,
+    FaYoutube,
+    FaTiktok,
+} from 'react-icons/fa';
 import { MdEmail, MdCall } from 'react-icons/md';
 import Logo from '@/src/app/images/logo.150px.jpg';
 
@@ -10,10 +16,14 @@ export function Footer() {
     return (
         <footer className="bg-[var(--green-300)] w-full p-6 static bottom-0">
             <div className="container mx-auto">
-                <div className="flex justify-between w-full py-2">
+                <div className="flex justify-between w-full py-2 sm:flex-row flex-col">
                     <div className="w-full flex flex-col gap-4">
                         <a href="/">
-                            <img src={Logo.src} alt="" className="w-[10rem]" />
+                            <img
+                                src={Logo.src}
+                                alt=""
+                                className="sm:w-[10rem] w-[5rem]"
+                            />
                         </a>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -23,14 +33,14 @@ export function Footer() {
                             numquam ad nostrum.
                         </p>
                     </div>
-                    <div className="flex justify-center w-full">
+                    <div className="flex sm:justify-center w-full sm:py-0 py-5">
                         <p className="">PRECISO DE IDEIA</p>
                     </div>
                     <div className="flex flex-col w-full">
-                        <h3 className="text-center">Redes sociais</h3>
-                        <div className="flex flex-col items-center py-2">
-                            <div className="flex gap-10">
-                                <div className="flex flex-col gap-4">
+                        <h3 className="sm:text-center">Redes sociais</h3>
+                        <div className="flex flex-col sm:items-center sm:py-2 py-5">
+                            <div className="flex sm:gap-10 gap-16">
+                                <div className="flex flex-col sm:gap-4 gap-8">
                                     <div className="cursor:pointer hover:opacity-20 hover:underline">
                                         <a
                                             href="https://www.facebook.com/TerreirodeJagun?locale=pt_BR"
@@ -48,18 +58,28 @@ export function Footer() {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="cursor:pointer hover:opacity-20 hover:underline">
-                                    <a
-                                        href="https://www.youtube.com/@OTerreirodeJagunOficial"
-                                        target="_blank"
-                                    >
-                                        <FaYoutube size={35} />
-                                    </a>
+                                <div className="flex flex-col  sm:gap-4 gap-8">
+                                    <div className="cursor:pointer hover:opacity-20 hover:underline">
+                                        <a
+                                            href="https://www.youtube.com/@OTerreirodeJagunOficial"
+                                            target="_blank"
+                                        >
+                                            <FaYoutube size={35} />
+                                        </a>
+                                    </div>
+                                    <div className="cursor:pointer hover:opacity-20 hover:underline">
+                                        <a
+                                            href="https://www.tiktok.com/@terreirodejagun"
+                                            target="_blank"
+                                        >
+                                            <FaTiktok size={35} />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col gap-4 pt-6">
-                                <h3 className="text-center">Contato</h3>
-                                <div className="flex gap-10">
+                            <div className="flex flex-col sm:gap-4 gap-8 sm:pt-6 pt-8">
+                                <h3 className="sm:text-center">Contato</h3>
+                                <div className="flex sm:gap-10 gap-16">
                                     <div className="cursor:pointer hover:opacity-20 hover:underline">
                                         <a
                                             href="https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais."

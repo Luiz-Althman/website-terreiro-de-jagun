@@ -56,7 +56,7 @@ export function Introduction() {
     return (
         <div className="container mx-auto">
             <header className=" w-full flex justify-center flex-col items-center">
-                <h1 className="font-bold my-5 uppercase">
+                <h1 className="font-bold sm:my-3 uppercase">
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
                 </h1>
                 <img

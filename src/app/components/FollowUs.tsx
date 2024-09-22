@@ -8,22 +8,20 @@ export function FollowUs() {
                             Confira nossos vídeos no youtube!
                         </h2>
                     </header>
-                    <div className="flex justify-between pb-10">
+                    <div className="flex justify-between pb-10 sm:flex-row flex-col-reverse sm:gap-2 gap-4">
                         <iframe
-                            width="500"
-                            height="315"
                             src="https://www.youtube.com/embed/YsmO0opH4mg"
                             title="WebClipe da última música lançada."
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
+                            className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
                         />
                         <iframe
-                            width="500"
-                            height="315"
                             src="https://www.youtube.com/embed/nDdSfBtG7jU"
                             title="Vídeo sobre comidas de camdomblé com base em minha linhagem"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
+                            className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
                         />
                     </div>
                 </div>
