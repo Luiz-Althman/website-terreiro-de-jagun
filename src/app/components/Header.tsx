@@ -1,13 +1,7 @@
 'use client';
 /* eslint-disable @next/next/no-img-element */
 
-import {
-    FaWhatsapp,
-    FaInstagram,
-    FaFacebook,
-    FaYoutube,
-    FaTiktok,
-} from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 import Logo from '@/src/app/images/logo.150px.jpg';
 import { MenuWithSubmenu, MenuWithSubmenuType } from './MenuWithSubmenu';
