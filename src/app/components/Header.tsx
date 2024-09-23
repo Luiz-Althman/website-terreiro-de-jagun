@@ -36,15 +36,26 @@ export function Header() {
     return (
         <header className="bg-[var(--green-300)] w-full p-6 mb-10">
             <div className="container flex justify-between items-center">
-                <a href="/" className="cursor:pointer">
-                    <img
-                        src={Logo.src}
-                        alt=""
-                        className="sm:w-[5rem] w-[3rem]"
-                    />
-                </a>
-                <div className="sm:hidden block">
-                    <MenuWithSubmenu data={Submenu} />
+                <div className="flex justify-between flex-row-reverse w-full sm:hidden">
+                    <a href="/" className="cursor:pointer">
+                        <img
+                            src={Logo.src}
+                            alt=""
+                            className="sm:w-[6rem] w-[3rem]"
+                        />
+                    </a>
+                    <div className="sm:hidden block">
+                        <MenuWithSubmenu data={Submenu} />
+                    </div>
+                </div>
+                <div className="hidden sm:block">
+                    <a href="/" className="cursor:pointer">
+                        <img
+                            src={Logo.src}
+                            alt=""
+                            className="sm:w-[6rem] w-[3rem]"
+                        />
+                    </a>
                 </div>
                 <ul className="hidden sm:flex justify-center gap-5 text-[1.15rem] font-semibold ">
                     <li className="cursor:pointer">

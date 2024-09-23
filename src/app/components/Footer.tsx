@@ -23,15 +23,13 @@ export function Footer() {
                             <img
                                 src={Logo.src}
                                 alt=""
-                                className="sm:w-[10rem] w-[5rem]"
+                                className="sm:w-[9rem] w-[5rem]"
                             />
                         </a>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Eveniet, est minus rerum error deserunt
-                            impedit temporibus excepturi vel minima. Quaerat
-                            sapiente esse hic facere, optio consequuntur porro
-                            numquam ad nostrum.
+                        <p className="sm:pr-3">
+                            Terreiro de camdomblé, fundado em 2013 em Franco da
+                            Rocha. Administrado pelo Babalorixá Roberto Xaxá,
+                            filho de Egbomi Mãe Cidália de Iroko.
                         </p>
                     </div>
                     <div className="flex flex-col sm:items-center w-full sm:py-0 py-5">
