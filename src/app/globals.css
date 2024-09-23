@@ -29,8 +29,18 @@ html {
 
 body {
     background: var(--white);
-    font-family: Quicksand, sans-serif;
 }
+h1,
+h2,
+h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
 h1,
 h2,
 h3,

@@ -11,10 +11,11 @@ import {
 } from 'react-icons/fa';
 import { MdEmail, MdCall } from 'react-icons/md';
 import Logo from '@/src/app/images/logo.150px.jpg';
+import Rua from '@/src/app/images/DSC00962.jpg';
 
 export function Footer() {
     return (
-        <footer className="bg-[var(--green-300)] w-full p-6 static bottom-0">
+        <footer className="bg-[var(--green-300)] w-full py-10 static bottom-0">
             <div className="container mx-auto">
                 <div className="flex justify-between w-full py-2 sm:flex-row flex-col">
                     <div className="w-full flex flex-col gap-4">
@@ -33,8 +34,16 @@ export function Footer() {
                             numquam ad nostrum.
                         </p>
                     </div>
-                    <div className="flex sm:justify-center w-full sm:py-0 py-5">
-                        <p className="">PRECISO DE IDEIA</p>
+                    <div className="flex flex-col sm:items-center w-full sm:py-0 py-5">
+                        <h3 className="sm:text-center">Endereço</h3>
+                        <img src={Rua.src} alt="" className="sm:w-full py-2" />
+                        <a
+                            href="https://www.google.com/maps/dir/-23.2680166,-46.6512276/Rua+Alana+Caldas,+4+-+Bairro+dos+PENHAS,+Franco+da+Rocha+-+SP/@-23.2707123,-46.6636364,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cee8a24210b895:0x6781851cf92b6f24!2m2!1d-46.6641565!2d-23.2736914?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
+                            className="hover:underline hover:opacity-20 font-semibold"
+                        >
+                            R. Alana Caldas, 4 - Bairro dos PENHAS, Franco da
+                            Rocha - SP, 07863-495
+                        </a>
                     </div>
                     <div className="flex flex-col w-full">
                         <h3 className="sm:text-center">Redes sociais</h3>
@@ -108,6 +117,12 @@ export function Footer() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="h-[1px] bg-[var(--brown-300)] my-10" />
+                <div className="flex justify-center">
+                    <span className="text-sm">
+                        Terreiro de jagun - &copy; Copyright 2024.
+                    </span>
                 </div>
             </div>
         </footer>
