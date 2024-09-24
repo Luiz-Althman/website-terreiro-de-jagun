@@ -5,8 +5,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-import { CarouselTypeArray, CarouselType } from './Introduction';
+import { CarouselTypeArray, CarouselType } from '../../types';
 
 const settings = {
     dots: true,

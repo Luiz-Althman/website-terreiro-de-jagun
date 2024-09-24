@@ -4,37 +4,12 @@
 import { FaInstagram, FaFacebook, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 import Logo from '@/src/app/images/logo.150px.jpg';
-import { MenuWithSubmenu, MenuWithSubmenuType } from './MenuWithSubmenu';
+import { MenuWithSubmenu } from './MenuWithSubmenu';
+import { Submenu } from '../mock';
 
 export function Header() {
-    const Submenu: MenuWithSubmenuType[] = [
-        {
-            link: '#o_terreiro',
-            title: 'O Terreiro',
-        },
-        {
-            link: '/people',
-            title: 'Quem somos',
-        },
-        {
-            link: '/projetos',
-            title: 'Projetos',
-        },
-        {
-            link: '/reinauguracao',
-            title: 'Reinauguração',
-        },
-        {
-            link: 'https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20Gostaria%20de%20agendar%20um%20jogo%20de%20b%C3%BAzios.',
-            title: 'Agende seu jogo',
-        },
-        {
-            link: 'mailto:terreirodejagun@gmail.com',
-            title: 'Contato',
-        },
-    ];
     return (
-        <header className="bg-[var(--green-300)] w-full p-6 mb-10 fixed z-50 shadow">
+        <header className="bg-[var(--green-300)] w-full p-6 fixed z-50 shadow">
             <div className="container flex justify-between items-center">
                 <div className="flex justify-between flex-row-reverse w-full sm:hidden">
                     <a href="/" className="cursor:pointer">
@@ -53,7 +28,7 @@ export function Header() {
                         <img
                             src={Logo.src}
                             alt=""
-                            className="sm:w-[6rem] w-[3rem]"
+                            className="sm:w-[4rem] w-[3rem]"
                         />
                     </a>
                 </div>
@@ -69,7 +44,7 @@ export function Header() {
                     <li className="cursor:pointer">
                         <a
                             className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="/people"
+                            href="#people"
                         >
                             Quem somos
                         </a>

@@ -10,7 +10,6 @@ export function About() {
     return (
         <div className="background my-10">
             <div className="fadeImage">
-                <div id="o_terreiro" />
                 <div className="container mx-auto py-5">
                     <header className="flex justify-center py-5">
                         <h2 className="uppercase text-[var(--white)]">

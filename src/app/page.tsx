@@ -6,6 +6,7 @@ import { Introduction } from './components/Introduction';
 import { About } from './components/About';
 import { LocationMap } from './components/LocationMap';
 import { FollowUs } from './components/FollowUs';
+import People from './components/People';
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
             <About />
             <LocationMap />
             <FollowUs />
+            <People />
             <Footer />
         </div>
     );

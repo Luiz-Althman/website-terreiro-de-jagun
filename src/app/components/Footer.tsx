@@ -15,7 +15,7 @@ import Rua from '@/src/app/images/DSC00962.jpg';
 
 export function Footer() {
     return (
-        <footer className="bg-[var(--green-300)] w-full py-10 static bottom-0">
+        <footer className="bg-[var(--green-300)] w-full py-10 static bottom-0 sm:mt-10 mt-8">
             <div className="container mx-auto">
                 <div className="flex justify-between w-full py-2 sm:flex-row flex-col">
                     <div className="w-full flex flex-col gap-4">
@@ -119,7 +119,8 @@ export function Footer() {
                 <div className="h-[1px] bg-[var(--brown-300)] my-10" />
                 <div className="flex justify-center">
                     <span className="text-sm">
-                        Terreiro de jagun - &copy; Copyright 2024.
+                        &copy; 2024 Terreiro de jagun - Todos os direitos
+                        reservados.
                     </span>
                 </div>
             </div>

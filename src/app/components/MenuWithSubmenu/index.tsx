@@ -1,14 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { RxHamburgerMenu, RxCross2 } from 'react-icons/rx';
-
-export interface MenuWithSubmenuType {
-    link: string;
-    title: string;
-}
-interface MenuWithSubmenuTypeResponse {
-    data: MenuWithSubmenuType[];
-}
+import { MenuWithSubmenuTypeResponse, MenuWithSubmenuType } from '../../types';
 
 export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
     const [isOpen, setIsOpen] = useState(false);

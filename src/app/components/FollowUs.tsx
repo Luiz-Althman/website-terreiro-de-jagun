@@ -8,6 +8,8 @@ export function FollowUs() {
                             Confira nossos vídeos no youtube!
                         </h2>
                     </header>
+                    <div id="people" />
+
                     <div className="flex justify-between pb-10 sm:flex-row flex-col-reverse sm:gap-2 gap-4">
                         <iframe
                             src="https://www.youtube.com/embed/YsmO0opH4mg"
