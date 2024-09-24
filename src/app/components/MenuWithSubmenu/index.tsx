@@ -27,7 +27,7 @@ export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
 
             {isOpen && isOpen && (
                 <div
-                    className={`absolute right-0 mt-2 w-48 bg-[var(--green-300)] rounded-md shadow-lg border border-[var(--brown-100)] ${
+                    className={`absolute left-0 mt-2 w-48 bg-[var(--green-300)] rounded-md shadowMenu  ${
                         isOpen
                             ? 'transform scale-100 opacity-100'
                             : 'transform scale-0 opacity-0'

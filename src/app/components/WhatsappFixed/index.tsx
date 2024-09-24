@@ -13,6 +13,7 @@ export function WhatsappFixed() {
                     src={Whatsapp.src}
                     className="vibrating-icon sm:w-[3.75rem] sm:h-[3.75rem] w-[4rem] h-[4rem]"
                     color="var(--green-300)"
+                    alt="WhatsApp button"
                 />
             </a>
         </div>

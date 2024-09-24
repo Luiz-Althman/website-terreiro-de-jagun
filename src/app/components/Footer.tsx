@@ -34,7 +34,11 @@ export function Footer() {
                     </div>
                     <div className="flex flex-col sm:items-center w-full sm:py-0 py-5">
                         <h3 className="sm:text-center">Endereço</h3>
-                        <img src={Rua.src} alt="" className="sm:w-full py-2" />
+                        <img
+                            src={Rua.src}
+                            alt=""
+                            className="sm:w-full py-2 rounded-lg"
+                        />
                         <a
                             href="https://www.google.com/maps/dir/-23.2680166,-46.6512276/Rua+Alana+Caldas,+4+-+Bairro+dos+PENHAS,+Franco+da+Rocha+-+SP/@-23.2707123,-46.6636364,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cee8a24210b895:0x6781851cf92b6f24!2m2!1d-46.6641565!2d-23.2736914?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
                             className="hover:underline hover:opacity-20 font-semibold"

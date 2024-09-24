@@ -113,6 +113,9 @@ p {
 .shadow {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
 }
+.shadowMenu {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 40px 0px;
+}
 
 .background {
     background: var(--background-about) no-repeat;
