@@ -34,7 +34,7 @@ export function Header() {
         },
     ];
     return (
-        <header className="bg-[var(--green-300)] w-full p-6 mb-10">
+        <header className="bg-[var(--green-300)] w-full p-6 mb-10 fixed z-50 shadow">
             <div className="container flex justify-between items-center">
                 <div className="flex justify-between flex-row-reverse w-full sm:hidden">
                     <a href="/" className="cursor:pointer">

@@ -5,13 +5,16 @@
 import { Carousel } from './Carousel';
 import { StaticImageData } from 'next/image';
 import Brasao from '@/src/app/images/logo.jpeg';
-import FOTO_2 from '@/src/app/images/dodo1.jpg';
+import FOTO_2 from '@/src/app/images/DSC_7171.jpg';
+
 import FOTO from '@/src/app/images/DSC_3061.jpg';
 import FOTO_3 from '@/src/app/images/DSC01085.jpg';
 import FOTO_4 from '@/src/app/images/DSC04974.jpg';
 import FOTO_5 from '@/src/app/images/DSC_7875.jpg';
 import FOTO_6 from '@/src/app/images/DSC02285.jpg';
 import FOTO_7 from '@/src/app/images/IMG_7027.jpg';
+import FOTO_8 from '@/src/app/images/DSC_7224.jpg';
+import FOTO_9 from '@/src/app/images/dodo1.jpg';
 
 export interface CarouselType {
     imageUrl: StaticImageData;
@@ -29,9 +32,18 @@ export function Introduction() {
             name: 'Festa',
         },
         {
+            imageUrl: FOTO_8,
+            name: 'Festa',
+        },
+        {
             imageUrl: FOTO_2,
             name: 'Festa',
         },
+        {
+            imageUrl: FOTO_9,
+            name: 'Festa',
+        },
+
         {
             imageUrl: FOTO,
             name: 'Festa',
@@ -54,7 +66,7 @@ export function Introduction() {
         },
     ];
     return (
-        <div className="container mx-auto">
+        <section className="container mx-auto sm:pt-[10rem] pt-[8rem]">
             <header className=" w-full flex justify-center flex-col items-center">
                 <h1 className="font-bold sm:my-3 uppercase">
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
@@ -81,6 +93,6 @@ export function Introduction() {
                 </p>
             </article>
             <Carousel data={items} />
-        </div>
+        </section>
     );
 }

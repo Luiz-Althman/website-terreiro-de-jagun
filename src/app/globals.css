@@ -13,7 +13,7 @@
     --yellow: #fac847;
     --blue: #2929f8;
     --background-about: url('images/DSC_2905.jpg');
-    --background-followus: url('images/DSC06260.jpg');
+    --background-followus: url('images/DSC_6816.jpg');
 }
 
 html {
@@ -110,6 +110,10 @@ p {
     right: 10px !important; /* Distância da borda direita */
 }
 
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+}
+
 .background {
     background: var(--background-about) no-repeat;
     background-attachment: fixed;
@@ -126,6 +130,19 @@ p {
     background-size: cover;
     .fadeImage {
         width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+    .backgroundFollowUs {
+        background-position: center;
+        background-size: cover;
         height: 100%;
     }
 }
