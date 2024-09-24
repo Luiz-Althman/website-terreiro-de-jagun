@@ -38,6 +38,18 @@ export default function RootLayout({
   gtag('config', 'G-JSX7L0BTYV');
         `}
                 </Script>
+                <Script
+                    id="my-custom-google-analicts"
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV"
+                ></Script>
+                <Script>
+                    {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JSX7L0BTYV');`}
+                </Script>
             </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
