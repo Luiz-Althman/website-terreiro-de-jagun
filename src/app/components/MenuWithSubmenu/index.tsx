@@ -2,12 +2,13 @@ import React from 'react';
 import { useState } from 'react';
 import { RxHamburgerMenu, RxCross2 } from 'react-icons/rx';
 import { MenuWithSubmenuTypeResponse, MenuWithSubmenuType } from '../../types';
+import { useTheme } from '../../context/ThemeProvider';
 
 export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
-    const [isOpen, setIsOpen] = useState(false);
+    const { open, setOpen } = useTheme();
 
     const toggleMenu = () => {
-        setIsOpen(!isOpen);
+        setOpen(!open);
     };
 
     return (
@@ -17,7 +18,7 @@ export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
                 className="text-2xl p-2 focus:outline-none"
             >
                 <span className="transition duration-1000 ease-in-out">
-                    {isOpen ? (
+                    {open ? (
                         <RxCross2 size={25} />
                     ) : (
                         <RxHamburgerMenu size={25} />
@@ -25,10 +26,10 @@ export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
                 </span>
             </button>
 
-            {isOpen && isOpen && (
+            {open && open && (
                 <div
                     className={`absolute left-0 mt-2 w-48 bg-[var(--green-300)] rounded-md shadowMenu  ${
-                        isOpen
+                        open
                             ? 'transform scale-100 opacity-100'
                             : 'transform scale-0 opacity-0'
                     }`}

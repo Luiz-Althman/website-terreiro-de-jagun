@@ -8,17 +8,26 @@ import { About } from './components/About';
 import { FollowUs } from './components/FollowUs';
 import People from './components/People';
 import { Projects } from './components/Projects';
+import { useTheme } from './context/ThemeProvider';
 
 export default function App() {
+    const { setOpen } = useTheme();
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
     return (
         <div>
             <Header />
-            <Introduction />
-            <About />
-            <Projects />
-            <FollowUs />
-            <People />
-            <Footer />
+            <div onClick={handleClose}>
+                <Introduction />
+                <About />
+                <Projects />
+                <FollowUs />
+                <People />
+                <Footer />
+            </div>
         </div>
     );
 }

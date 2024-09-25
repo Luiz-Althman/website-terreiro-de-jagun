@@ -9,7 +9,7 @@ import { Submenu } from '../mock';
 
 export function Header() {
     return (
-        <header className="bg-[var(--green-300)] w-full p-6 fixed z-50 shadow">
+        <header className="bg-[var(--green-300)] w-full py-6 fixed z-50 shadow">
             <div className="container flex justify-between items-center">
                 <div className="flex justify-between flex-row-reverse w-full sm:hidden">
                     <a href="/" className="cursor:pointer">
@@ -66,7 +66,7 @@ export function Header() {
                         </a>
                     </li>*/}
                     <a
-                        href="/centro-cultural"
+                        href="https://www.instagram.com/centrocultural.opanije/"
                         className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
                         target="_blank"
                     >

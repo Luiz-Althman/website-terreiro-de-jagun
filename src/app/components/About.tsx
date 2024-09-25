@@ -8,7 +8,7 @@ import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
 
 export function About() {
     return (
-        <div className="background my-10">
+        <section className="background my-10">
             <div className="fadeImage">
                 <div className="container py-5">
                     <header className="flex justify-center py-5">
@@ -64,10 +64,11 @@ export function About() {
                                 alt=""
                                 className="sm:w-1/2 w-full rounded-lg"
                             />
+                            <div id="projetos" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

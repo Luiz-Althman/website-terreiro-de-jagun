@@ -2,9 +2,9 @@ import Persona from '@/src/app/images/DSC_7171.jpg';
 
 export default function People() {
     return (
-        <div className="container">
+        <section className="container">
             <div className="flex flex-col justify-center">
-                <header className="flex justify-center py-5">
+                <header className="flex justify-center sm:py-5">
                     <h1 className="text-center uppercase">
                         <span className="text-[var(--green-100)]">
                             Lideranças
@@ -16,7 +16,10 @@ export default function People() {
                     <div className="flex flex-col items-center gap-4">
                         <div className="flex sm:flex-row flex-col justify-center items-center gap-4">
                             <h2 className="sm:hidden flex">
-                                Babalorixá Roberto Xáxa
+                                <span className="text-[var(--green-100)] pr-1">
+                                    Babalorixá
+                                </span>{' '}
+                                Roberto Xáxa
                             </h2>
                             <img
                                 src={Persona.src}
@@ -25,8 +28,14 @@ export default function People() {
                             />
                             <div className="">
                                 <h2 className="sm:flex hidden">
-                                    Babalorixá Roberto Xáxa
+                                    <span className="text-[var(--green-100)] pr-1">
+                                        Babalorixá
+                                    </span>
+                                    Roberto Xáxa
                                 </h2>
+                                <h4 className="text-[1.15rem] font-semibold uppercase">
+                                    Líder religioso
+                                </h4>
                                 <p>
                                     Lorem ipsum, dolor sit amet consectetur
                                     adipisicing elit. Tenetur harum nulla dolore
@@ -39,7 +48,10 @@ export default function People() {
                         </div>
                         <div className="flex flex-col sm:flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5">
                             <h2 className="sm:hidden flex">
-                                Iya N’Lasé Nathalya
+                                <span className="text-[var(--green-100)] pr-1">
+                                    Iya N’Lasé
+                                </span>{' '}
+                                Nathalya
                             </h2>
 
                             <img
@@ -49,7 +61,10 @@ export default function People() {
                             />
                             <div className="">
                                 <h2 className="sm:flex hidden">
-                                    Iya N’Lasé Nathalya
+                                    <span className="text-[var(--green-100)] pr-1">
+                                        Iya N’Lasé
+                                    </span>{' '}
+                                    Nathalya
                                 </h2>
                                 <p>
                                     Lorem ipsum, dolor sit amet consectetur
@@ -62,7 +77,12 @@ export default function People() {
                             </div>
                         </div>
                         <div className="flex sm:flex-row flex-col flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5">
-                            <h2 className="sm:hidden flex">Iya Egbé Luciane</h2>
+                            <h2 className="sm:hidden flex">
+                                <span className="text-[var(--green-100)] pr-1">
+                                    Iya Egbé
+                                </span>{' '}
+                                Luciane
+                            </h2>
 
                             <img
                                 src={Persona.src}
@@ -71,7 +91,10 @@ export default function People() {
                             />
                             <div className="">
                                 <h2 className="sm:flex hidden">
-                                    Iya Egbé Luciane
+                                    <span className="text-[var(--green-100)] pr-1">
+                                        Iya Egbé{' '}
+                                    </span>
+                                    Luciane
                                 </h2>
                                 <p>
                                     Lorem ipsum, dolor sit amet consectetur
@@ -86,6 +109,6 @@ export default function People() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

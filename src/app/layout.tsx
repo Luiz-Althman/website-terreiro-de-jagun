@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import Script from 'next/script';
+import { ThemeProvider } from './context/ThemeProvider';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -27,7 +28,7 @@ export default function RootLayout({
     return (
         <html lang="pt-br">
             <head>
-                <Script
+                {/* <Script
                     async
                     src={`https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV`}
                 />
@@ -37,24 +38,30 @@ export default function RootLayout({
   gtag('js', new Date());
   gtag('config', 'G-JSX7L0BTYV');
         `}
-                </Script>
+                </Script> */}
                 <Script
                     id="my-custom-google-analicts"
+                    strategy="afterInteractive"
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV"
                 ></Script>
                 <Script id="my-custom-google-analict">
                     {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JSX7L0BTYV');`}
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('consent', 'default', {
+                            'ad_storage': 'denied',
+                            'analytics_storage': 'denied'
+                            });
+                        gtag('config', 'G-JSX7L0BTYV', {
+                            cookie_flags: 'SameSite=None;Secure'
+                            });`}
                 </Script>
             </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
-                {children}
+                <ThemeProvider>{children}</ThemeProvider>
             </body>
         </html>
     );

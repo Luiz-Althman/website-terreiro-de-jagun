@@ -1,17 +1,16 @@
 export function FollowUs() {
     return (
-        <div className="backgroundFollowUs my-10">
+        <section className="backgroundFollowUs my-10">
             <div className="fadeImage">
                 <div className="container mx-auto py-5">
                     <header className="flex justify-center py-5 uppercase">
                         <h2 className="text-[var(--white)]">
-                            Confira nosso{' '}
+                            Confira{' '}
                             <span className="text-[var(--green-100)]">
-                                canal!
+                                nosso canal!
                             </span>
                         </h2>
                     </header>
-                    <div id="people" />
 
                     <div className="flex justify-between pb-10 sm:flex-row flex-col-reverse sm:gap-2 gap-4">
                         <iframe
@@ -29,8 +28,9 @@ export function FollowUs() {
                             className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
                         />
                     </div>
+                    <div id="people" />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

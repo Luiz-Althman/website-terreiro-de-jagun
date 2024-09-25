@@ -110,7 +110,7 @@ export function Footer() {
                                 </div>
                                 <div className="cursor:pointer hover:opacity-20 hover:underline">
                                     <a
-                                        href="https://www.facebook.com/TerreirodeJagun?locale=pt_BR"
+                                        href="mailto:terreirodejagun@gmail.com"
                                         target="_blank"
                                     >
                                         <MdEmail size={35} />
