@@ -5,7 +5,12 @@ export default function People() {
         <div className="container">
             <div className="flex flex-col justify-center">
                 <header className="flex justify-center py-5">
-                    <h1 className="text-center">Lideranças do terreiro</h1>
+                    <h1 className="text-center uppercase">
+                        <span className="text-[var(--green-100)]">
+                            Lideranças
+                        </span>{' '}
+                        do terreiro
+                    </h1>
                 </header>
                 <div className="flex flex-col w-full justify-between gap-4 mt-5">
                     <div className="flex flex-col items-center gap-4">

@@ -13,7 +13,10 @@ export function About() {
                 <div className="container py-5">
                     <header className="flex justify-center py-5">
                         <h2 className="uppercase text-[var(--white)]">
-                            O Terreiro
+                            Sobre{' '}
+                            <span className="text-[var(--green-100)]">
+                                o Terreiro
+                            </span>
                         </h2>
                     </header>
                     <div className="flex flex-col gap-4">

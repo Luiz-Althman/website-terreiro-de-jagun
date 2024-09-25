@@ -49,14 +49,14 @@ export function Header() {
                             Quem somos
                         </a>
                     </li>
-                    <li className="cursor:pointer ">
+                    {/* <li className="cursor:pointer ">
                         <a
                             className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
                             href="/projetos"
                         >
                             Projetos
                         </a>
-                    </li>
+                    </li> 
                     <li className="cursor:pointer">
                         <a
                             className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
@@ -64,10 +64,18 @@ export function Header() {
                         >
                             Reinauguração
                         </a>
-                    </li>
+                    </li>*/}
+                    <a
+                        href="/centro-cultural"
+                        className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
+                        target="_blank"
+                    >
+                        Centro cultural
+                    </a>
                     <a
                         href="https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20Gostaria%20de%20agendar%20um%20jogo%20de%20b%C3%BAzios."
                         className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
+                        target="_blank"
                     >
                         Agende seu Jogo
                     </a>

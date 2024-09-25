@@ -16,3 +16,9 @@ export interface MenuWithSubmenuType {
 export interface MenuWithSubmenuTypeResponse {
     data: MenuWithSubmenuType[];
 }
+
+export interface ProjectCardType {
+    image: StaticImageData;
+    title: string;
+    description: string;
+}

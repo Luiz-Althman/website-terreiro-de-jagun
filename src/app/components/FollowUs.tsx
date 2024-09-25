@@ -3,9 +3,12 @@ export function FollowUs() {
         <div className="backgroundFollowUs my-10">
             <div className="fadeImage">
                 <div className="container mx-auto py-5">
-                    <header className="flex justify-center py-5">
+                    <header className="flex justify-center py-5 uppercase">
                         <h2 className="text-[var(--white)]">
-                            Confira nossos vídeos no youtube!
+                            Confira nosso{' '}
+                            <span className="text-[var(--green-100)]">
+                                canal!
+                            </span>
                         </h2>
                     </header>
                     <div id="people" />

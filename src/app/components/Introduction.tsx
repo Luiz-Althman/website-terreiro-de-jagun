@@ -23,14 +23,17 @@ export function Introduction() {
                 />
             </header>
             <article className="mt-5">
-                <h3 className="uppercase">
-                    Terreiro de camdomblé fundado em 2013.
+                <h3 className="">
+                    <span className="text-[var(--green-100)]">
+                        Terreiro de camdomblé
+                    </span>{' '}
+                    fundado em 2013.
                 </h3>
                 <p className="mt-2">
                     Administrado pelo Babalorixá,{' '}
                     <a
                         href="https://www.instagram.com/xaxaroberto/"
-                        className="font-bold underline hover:opacity-20"
+                        className="font-bold text-[var(--green-100)] relative inline-block hover:opacity-50 after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--green-100)] after:transition-all after:duration-500 hover:after:w-full"
                         target="_blank"
                     >
                         Roberto Xáxa.
