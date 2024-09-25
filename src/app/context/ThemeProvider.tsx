@@ -3,27 +3,37 @@
 import React, { createContext, useContext, useState } from 'react';
 
 // Criar o contexto
-const ThemeContext = createContext({
-    theme: 'light',
-    toggleTheme: () => {},
-    open: false,
-    setOpen: (value: boolean) => {},
-});
+interface ThemeContextType {
+    theme: string;
+    toggleTheme: () => void;
+    open: boolean;
+    setOpen: (value: boolean) => void;
+}
 
 // Criar um hook personalizado para acessar o contexto mais facilmente
-export const useTheme = () => useContext(ThemeContext);
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     const [theme, setTheme] = useState('light');
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState<boolean>(false);
 
     const toggleTheme = () => {
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
+    const toggleMenu = () => {
+        setOpen((prev) => !prev);
+    };
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme, open, setOpen }}>
             {children}
         </ThemeContext.Provider>
     );
+};
+export const useTheme = (): ThemeContextType => {
+    const context = useContext(ThemeContext);
+    if (context === undefined) {
+        throw new Error('useThemeContext must be used within a ThemeProvider');
+    }
+    return context;
 };
