@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import { RxHamburgerMenu, RxCross2 } from 'react-icons/rx';
 import { MenuWithSubmenuTypeResponse, MenuWithSubmenuType } from '../../types';
 import { useTheme } from '../../context/ThemeProvider';
