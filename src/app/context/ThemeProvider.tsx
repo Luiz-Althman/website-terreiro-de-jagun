@@ -21,9 +21,6 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
-    const toggleMenu = () => {
-        setOpen((prev) => !prev);
-    };
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme, open, setOpen }}>
             {children}
