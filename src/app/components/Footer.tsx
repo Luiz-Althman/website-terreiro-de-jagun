@@ -11,7 +11,6 @@ import {
 } from 'react-icons/fa';
 import { MdEmail, MdCall } from 'react-icons/md';
 import Logo from '@/src/app/images/logo.150px.jpg';
-import Rua from '@/src/app/images/DSC00962.jpg';
 
 export function Footer() {
     return (
