@@ -25,9 +25,9 @@ export function Introduction() {
             <article className="mt-5">
                 <h3 className="">
                     <span className="text-[var(--green-100)]">
-                        Terreiro de camdomblé
+                        Terreiro de candomblé
                     </span>{' '}
-                    fundado em 2013.
+                    fundado em 2001.
                 </h3>
                 <p className="mt-2">
                     Administrado pelo Babalorixá,{' '}

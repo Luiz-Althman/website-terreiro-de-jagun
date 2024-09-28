@@ -27,26 +27,33 @@ export function Footer() {
                             />
                         </a>
                         <p className="sm:pr-3">
-                            Terreiro de camdomblé, fundado em 2013 em Franco da
+                            Terreiro de candomblé, fundado em 2001 em Franco da
                             Rocha. Administrado pelo Babalorixá Roberto Xaxá,
                             filho de Egbomi Mãe Cidália de Iroko.
                         </p>
                     </div>
                     <div className="flex flex-col sm:items-center w-full sm:py-0 py-5">
                         <h3 className="sm:text-center">Endereço</h3>
-                        <img
-                            src={Rua.src}
-                            alt=""
-                            className="sm:w-full py-2 rounded-lg"
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d916.2920862220034!2d-46.66511038925857!3d-23.27333199869288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee8a269947fdf%3A0x2f6cd91ce6eaa6a6!2zSWzDqSBBaXnDqCBBamdiw7Jyw7IgSWdpIEFzw6ggSmFndW4!5e0!3m2!1spt-BR!2sbr!4v1726849613524!5m2!1spt-BR!2sbr"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            className="py-2 w-full h-[15rem] rounded-lg"
+                            // referrerPolicy="no-referrer-when-downgrade"
                         />
+
                         <a
                             href="https://www.google.com/maps/dir/-23.2680166,-46.6512276/Rua+Alana+Caldas,+4+-+Bairro+dos+PENHAS,+Franco+da+Rocha+-+SP/@-23.2707123,-46.6636364,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cee8a24210b895:0x6781851cf92b6f24!2m2!1d-46.6641565!2d-23.2736914?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
                             className="hover:underline hover:opacity-20 font-semibold"
+                            target="_blank"
                         >
                             R. Alana Caldas, 4 - Bairro dos PENHAS, Franco da
                             Rocha - SP, 07863-495
                         </a>
                     </div>
+
+                    <div id="redes_sociais" />
                     <div className="flex flex-col w-full">
                         <h3 className="sm:text-center">Redes sociais</h3>
                         <div className="flex flex-col sm:items-center sm:py-2 py-5">

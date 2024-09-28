@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
     title: 'Terreiro de Jagun',
-    description: 'Terreiro de camdonblé',
+    description: 'Terreiro de candomblé',
 };
 
 export default function RootLayout({

@@ -1,16 +1,28 @@
-import Persona from '@/src/app/images/DSC_7171.jpg';
+import Pai from '@/src/app/images/foto-pai.jpg';
+import Nathalya from '@/src/app/images/foto-mae.jpg';
+import Mae from '@/src/app/images/foto-mae.jpg';
 
 export default function People() {
     return (
         <section className="container">
             <div className="flex flex-col justify-center">
-                <header className="flex justify-center sm:py-5">
-                    <h1 className="text-center uppercase">
+                <header className="flex flex-col justify-center">
+                    <h2 className="text-center uppercase">
                         <span className="text-[var(--green-100)]">
                             Lideranças
                         </span>{' '}
                         do terreiro
-                    </h1>
+                    </h2>
+                    <p className="text-center py-5 text-[1.15rem] font-semibold">
+                        Uma breve descrição dos(as) príncipais lideres do{' '}
+                        <a
+                            href="https://www.instagram.com/terreirodejagun/"
+                            target="_blank"
+                            className="text-[var(--green-100)] relative inline-block after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--green-100)] after:transition-all after:duration-500 hover:after:w-full"
+                        >
+                            Terreiro de Jagun
+                        </a>
+                    </p>
                 </header>
                 <div className="flex flex-col w-full justify-between gap-4 mt-5">
                     <div className="flex flex-col items-center gap-4">
@@ -22,7 +34,7 @@ export default function People() {
                                 Roberto Xáxa
                             </h2>
                             <img
-                                src={Persona.src}
+                                src={Pai.src}
                                 className="rounded-lg sm:w-1/2 w-full"
                                 alt="Foto do Babalorixá Roberto Xáxa"
                             />
@@ -55,7 +67,7 @@ export default function People() {
                             </h2>
 
                             <img
-                                src={Persona.src}
+                                src={Nathalya.src}
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya N’Lasé Nathalya"
                             />
@@ -85,7 +97,7 @@ export default function People() {
                             </h2>
 
                             <img
-                                src={Persona.src}
+                                src={Mae.src}
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya Egbé Luciane"
                             />

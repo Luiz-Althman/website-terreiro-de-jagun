@@ -40,7 +40,10 @@ export function MenuWithSubmenu({ data }: MenuWithSubmenuTypeResponse) {
                                     <li className="px-4 py-2" key={`${index}`}>
                                         <a
                                             href={item.link}
-                                            className="text-[1.15rem] font-semibold "
+                                            className="text-[1.15rem] font-semibold"
+                                            target={
+                                                item.outPage ? '_blank' : ''
+                                            }
                                         >
                                             {item.title}
                                         </a>

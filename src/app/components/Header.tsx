@@ -49,22 +49,7 @@ export function Header() {
                             Quem somos
                         </a>
                     </li>
-                    {/* <li className="cursor:pointer ">
-                        <a
-                            className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="/projetos"
-                        >
-                            Projetos
-                        </a>
-                    </li> 
-                    <li className="cursor:pointer">
-                        <a
-                            className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="/reinauguracao"
-                        >
-                            Reinauguração
-                        </a>
-                    </li>*/}
+
                     <a
                         href="https://www.instagram.com/centrocultural.opanije/"
                         className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
@@ -84,6 +69,7 @@ export function Header() {
                         <a
                             className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
                             href="https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais."
+                            target="_blank"
                         >
                             Contato
                         </a>

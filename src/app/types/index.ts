@@ -12,6 +12,7 @@ export interface CarouselTypeArray {
 export interface MenuWithSubmenuType {
     link: string;
     title: string;
+    outPage?: boolean;
 }
 export interface MenuWithSubmenuTypeResponse {
     data: MenuWithSubmenuType[];
