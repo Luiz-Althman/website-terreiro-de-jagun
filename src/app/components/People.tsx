@@ -45,16 +45,25 @@ export default function People() {
                                     </span>
                                     Roberto Xáxa
                                 </h2>
-                                <h4 className="text-[1.15rem] font-semibold uppercase">
-                                    Líder religioso
-                                </h4>
+
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Tenetur harum nulla dolore
-                                    et. Quo dolores explicabo doloremque
-                                    voluptatem maiores odit, deleniti dolorem,
-                                    aspernatur necessitatibus illum quidem
-                                    tenetur ab quaerat cumque.
+                                    <span className="font-bold">
+                                        Roberto Xáxa
+                                    </span>
+                                    , Babalorixá do Ile Aiye Ajagboro Igi Asé
+                                    Jagun, com mais de 40 anos de iniciado no
+                                    Candomblé. Filho da lendária Mãe Cidália de
+                                    Iroko, reconhecida como a Enciclopédia
+                                    Candomblé no Brasil, filha dileta de Mãe
+                                    Menininha do Gantois. Roberto Xáxa leva o
+                                    legado de sua Iyalorixá em todos os
+                                    aspectos, desde a preservação daquilo que
+                                    foi deixado de ensinamento pelos seus
+                                    ancestrais, como valores morais e éticos na
+                                    condução do Terreiro de Candomblé.
+                                    <br /> Ética, Disciplina, Hierarquia e
+                                    Respeito as Tradições, são os pilares do
+                                    Terreiro de Jagun.
                                 </p>
                             </div>
                         </div>
@@ -79,12 +88,21 @@ export default function People() {
                                     Nathalya
                                 </h2>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Tenetur harum nulla dolore
-                                    et. Quo dolores explicabo doloremque
-                                    voluptatem maiores odit, deleniti dolorem,
-                                    aspernatur necessitatibus illum quidem
-                                    tenetur ab quaerat cumque.
+                                    <span className="font-bold">
+                                        Iyá Lasé Nathalya de Oxum
+                                    </span>
+                                    , a Mãe do Axé. Com 23 anos de iniciada por
+                                    mãe Cidália de Iroko, é a ela que caberá no
+                                    futuro preservar todo o legado de sua
+                                    Iyalorixá, perpetuado pelo seu pai biológico
+                                    e Babalorixá, Roberto Xáxa. Desde a tenra
+                                    idade, sempre mostrou-se aplicada ao
+                                    aprendizado, bem como, o respeito aos mais
+                                    velhos e à todos os filhos do Terreiro,
+                                    conquistando o respeito de todos
+                                    independente da idade de cada um. É a Iyá
+                                    Lasé a sucessora natural dentro da linhagem
+                                    de um Terreiro de Candomblé.
                                 </p>
                             </div>
                         </div>
@@ -109,12 +127,21 @@ export default function People() {
                                     Luciane
                                 </h2>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Tenetur harum nulla dolore
-                                    et. Quo dolores explicabo doloremque
-                                    voluptatem maiores odit, deleniti dolorem,
-                                    aspernatur necessitatibus illum quidem
-                                    tenetur ab quaerat cumque.
+                                    <span className="font-bold">
+                                        Iyá Egbé Luciane de Yewá
+                                    </span>
+                                    , a Mãe da Sociedade do Terreiro de Jagun.
+                                    Com mais de 30 anos de iniciada no
+                                    Candomblé, pelas mãos do saudoso Babalorixá
+                                    Pércio de Xango, é a Iyá Egbé quem
+                                    recepciona, organiza, além de auxiliar o
+                                    Babalorixá nas funções litúrgicas. Cabe a
+                                    Iyá Egbé orientar a comunidade do Terreiro,
+                                    acerca das atribuições e responsabilidades
+                                    de cada um, para um melhor funcionamento de
+                                    toda Egbé, sendo de papel fundamental para a
+                                    manutenção da ordem e, do bom
+                                    andamento do Axé.
                                 </p>
                             </div>
                         </div>

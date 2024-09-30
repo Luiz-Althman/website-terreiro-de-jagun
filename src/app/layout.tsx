@@ -28,17 +28,6 @@ export default function RootLayout({
     return (
         <html lang="pt-br">
             <head>
-                {/* <Script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV`}
-                />
-                <Script id="my-custom-script">
-                    {` window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-JSX7L0BTYV');
-        `}
-                </Script> */}
                 <Script
                     id="my-custom-google-analicts"
                     strategy="afterInteractive"

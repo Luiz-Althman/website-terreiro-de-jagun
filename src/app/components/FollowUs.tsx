@@ -9,7 +9,7 @@ export function FollowUs() {
                             nosso canal!
                         </span>
                     </h2>
-                    <p className="text-[var(--white)] py-5 text-[1.15rem] font-semibold w-1/2">
+                    <p className="text-[var(--white)] py-5 text-[1.15rem] font-semibold w-full sm:w-1/2">
                         Em nosso{' '}
                         <a
                             href="https://www.youtube.com/@OTerreirodeJagunOficial"

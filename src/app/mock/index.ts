@@ -92,8 +92,9 @@ export const Submenu: MenuWithSubmenuType[] = [
 export const projects = [
     {
         image: Projeto_nana,
-        title: 'Projeto 1',
-        description: 'Descrição do Projeto 1',
+        title: 'CANTO DA CRIAÇÃO',
+        description:
+            'O teve o objetivo de propagar a Cosmogonia Yorubá, através de historias perpetuadas pela oralidade, apresentando a criação dos seres humanos por uma ótica diversa da cultura judaico/cristã, de maneira lúdica e de fácil compreensão de todos.',
     },
     {
         image: Projeto_yansa,
@@ -102,8 +103,9 @@ export const projects = [
     },
     {
         image: Projeto_yewa,
-        title: 'Projeto 3',
-        description: 'Descrição do Projeto 3',
+        title: 'CANTO DO RIO',
+        description:
+            'O projeto é a primeira música composta pelo Babalorixá Roberto Xáxa para série SAGA DAS AIYABAS. Traz no enredo da música a divindade Yewa e sua dualidade ora mulher, ora serpente.',
     },
     {
         image: Projeto_ogun,
