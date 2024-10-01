@@ -1,5 +1,5 @@
 import Pai from '@/src/app/images/foto-pai.jpg';
-import Nathalya from '@/src/app/images/foto-mae.jpg';
+import Nathalya from '@/src/app/images/foto-nathalya.jpg';
 import Mae from '@/src/app/images/foto-mae.jpg';
 
 export default function People() {

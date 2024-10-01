@@ -5,7 +5,7 @@ export function FollowUs() {
                 <header className="flex flex-col justify-center items-center text-center py-5 ">
                     <h2 className="text-[var(--white)] uppercase">
                         Confira{' '}
-                        <span className="text-[var(--brown-300)]">
+                        <span className="text-[var(--green-100)]">
                             nosso canal!
                         </span>
                     </h2>
@@ -14,7 +14,7 @@ export function FollowUs() {
                         <a
                             href="https://www.youtube.com/@OTerreirodeJagunOficial"
                             target="_blank"
-                            className="relative inline-block after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
+                            className="relative text-[var(--green-100)] inline-block after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--green-100)] after:transition-all after:duration-500 hover:after:w-full"
                         >
                             {' '}
                             canal do youtube
