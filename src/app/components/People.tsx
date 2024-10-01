@@ -52,18 +52,17 @@ export default function People() {
                                     </span>
                                     , Babalorixá do Ile Aiye Ajagboro Igi Asé
                                     Jagun, com mais de 40 anos de iniciado no
-                                    Candomblé. Filho da lendária Mãe Cidália de
-                                    Iroko, reconhecida como a Enciclopédia
-                                    Candomblé no Brasil, filha dileta de Mãe
-                                    Menininha do Gantois. Roberto Xáxa leva o
-                                    legado de sua Iyalorixá em todos os
-                                    aspectos, desde a preservação daquilo que
+                                    Candomblé, poeta e compositor de samba, mpb
+                                    e músicas sacras, voltadas a cultura
+                                    afro-brasileira. Filho da lendária Mãe
+                                    Cidália de Iroko, reconhecida como a
+                                    Enciclopédia Candomblé no Brasil, filha
+                                    dileta de Mãe Menininha do Gantois. Roberto
+                                    Xáxa leva o legado de sua Iyalorixá em todos
+                                    os aspectos, desde a preservação daquilo que
                                     foi deixado de ensinamento pelos seus
                                     ancestrais, como valores morais e éticos na
                                     condução do Terreiro de Candomblé.
-                                    <br /> Ética, Disciplina, Hierarquia e
-                                    Respeito as Tradições, são os pilares do
-                                    Terreiro de Jagun.
                                 </p>
                             </div>
                         </div>

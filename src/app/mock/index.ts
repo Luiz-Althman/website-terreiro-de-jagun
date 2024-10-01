@@ -94,22 +94,24 @@ export const projects = [
         image: Projeto_nana,
         title: 'CANTO DA CRIAÇÃO',
         description:
-            'O teve o objetivo de propagar a Cosmogonia Yorubá, através de historias perpetuadas pela oralidade, apresentando a criação dos seres humanos por uma ótica diversa da cultura judaico/cristã, de maneira lúdica e de fácil compreensão de todos.',
+            'Com o objetivo de propagar a Cosmogonia Yorubá, através de historias perpetuadas pela oralidade, apresentando a criação dos seres humanos por uma ótica diversa da cultura judaico/cristã, de maneira lúdica e de fácil compreensão de todos.',
     },
     {
         image: Projeto_yansa,
-        title: 'Projeto 2',
-        description: 'Descrição do Projeto 2',
+        title: 'PROJETO YANSAN',
+        description:
+            'Com o intuito de divulgar, desmistificar e aproximar pessoas que tenham qualquer tipo de intolerância com o Candomblé, bem como, romantizar em forma de ensaios com este, os traços características das divindades, neste caso Yansan, Senhora da Tarde e dos ventos fortes.',
     },
     {
         image: Projeto_yewa,
         title: 'CANTO DO RIO',
         description:
-            'O projeto é a primeira música composta pelo Babalorixá Roberto Xáxa para série SAGA DAS AIYABAS. Traz no enredo da música a divindade Yewa e sua dualidade ora mulher, ora serpente.',
+            'Este trabalho é a primeira música composta pelo Babalorixá Roberto Xáxa para série SAGA DAS AIYABAS. Traz no enredo da música a divindade Yewa e sua dualidade ora mulher, ora serpente.',
     },
     {
         image: Projeto_ogun,
-        title: 'Projeto 4',
-        description: 'Descrição do Projeto 4',
+        title: 'PROJETO OGUN',
+        description:
+            'A finalidade do projeto, neste caso, é demonstrar como essa divindade está em nosso cotidiano e em nossos corpos. Ao passo que Ogun é o senhor do Ferro, sua essência corre nas veias de todos nós, eis que o Ferro é um mineral essencial para nossa existência.',
     },
 ];

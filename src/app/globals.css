@@ -142,12 +142,12 @@ p {
 @media (max-width: 768px) {
     .background {
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         height: 100%;
     }
     .backgroundFollowUs {
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         height: 100%;
     }
 }
