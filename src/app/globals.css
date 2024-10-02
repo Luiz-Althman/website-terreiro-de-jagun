@@ -141,15 +141,15 @@ p {
 
 @media (max-width: 768px) {
     .background {
-        background-position: center;
+        background-position: top center;
         background-size: cover;
-        width: 100vw;
+        background-attachment: scroll;
         height: 100%;
     }
     .backgroundFollowUs {
-        background-position: right;
+        background-position: top center;
         background-size: cover;
-        width: 100vw;
+        background-attachment: scroll;
         height: 100%;
     }
 }

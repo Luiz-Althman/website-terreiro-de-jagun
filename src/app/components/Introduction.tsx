@@ -25,7 +25,7 @@ export function Introduction() {
             <article className="mt-5">
                 <h3 className="">
                     <span className="text-[var(--green-100)]">
-                        Terreiro de candomblé
+                        Terreiro de Candomblé
                     </span>{' '}
                     fundado em 2001.
                 </h3>

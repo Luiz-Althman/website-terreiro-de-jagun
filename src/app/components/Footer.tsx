@@ -27,8 +27,8 @@ export function Footer() {
                         </a>
                         <p className="sm:pr-3">
                             Terreiro de candomblé, fundado em 2001 em Franco da
-                            Rocha. Administrado pelo Babalorixá Roberto Xaxá,
-                            filho de Egbomi Mãe Cidália de Iroko.
+                            Rocha. Dirigido pelo Babalorixá Roberto Xaxá, filho
+                            de Egbomi Mãe Cidália de Iroko.
                         </p>
                     </div>
                     <div className="flex flex-col sm:items-center w-full sm:py-0 py-5">
