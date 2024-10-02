@@ -30,7 +30,7 @@ export function Introduction() {
                     fundado em 2001.
                 </h3>
                 <p className="mt-2">
-                    Dirigido pelo Babalorixá,{' '}
+                    Dirigido pelo Babalorixá{' '}
                     <a
                         href="https://www.instagram.com/xaxaroberto/"
                         className="font-bold text-[var(--green-100)] relative inline-block hover:opacity-50 after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--green-100)] after:transition-all after:duration-500 hover:after:w-full"
