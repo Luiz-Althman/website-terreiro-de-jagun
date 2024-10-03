@@ -1,11 +1,11 @@
 'use client';
 
-import { Carousel } from './CarouselComponent';
+// import { Carousel } from './CarouselComponent';
 
 import Brasao from '@/src/app/images/logo.jpeg';
 
 import { WhatsappFixed } from './WhatsappFixed';
-import { items } from '../mock';
+// import { items } from '../mock';
 import Image from 'next/image';
 
 export function Introduction() {
