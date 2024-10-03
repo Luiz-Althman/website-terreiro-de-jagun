@@ -30,7 +30,7 @@ export function FollowUs() {
                         title="WebClipe da última música lançada."
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                        className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
+                        className="sm:w-1/2 w-full h-[18rem]"
                         loading="lazy"
                     />
                     <iframe
@@ -38,7 +38,7 @@ export function FollowUs() {
                         title="Vídeo sobre comidas de candomblé com base em minha linhagem"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
-                        className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
+                        className="sm:w-1/2 w-full h-[18rem]"
                         loading="lazy"
                     />
                     <div id="people" />

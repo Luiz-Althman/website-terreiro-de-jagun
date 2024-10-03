@@ -30,6 +30,8 @@ export function Introduction() {
                     </span>{' '}
                     fundado em 2001.
                 </h3>
+                <div id="o_terreiro" />
+
                 <p className="mt-2">
                     Dirigido pelo Babalorixá{' '}
                     <a
@@ -42,7 +44,6 @@ export function Introduction() {
                 </p>
             </article>
 
-            <div id="o_terreiro" />
             <WhatsappFixed />
             {/* <Carousel data={items} /> */}
         </section>
