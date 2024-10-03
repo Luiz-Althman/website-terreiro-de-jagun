@@ -6,6 +6,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { CarouselTypeArray, CarouselType } from '../../types';
+import Image from 'next/image';
 
 const settings = {
     dots: true,
@@ -38,9 +39,11 @@ export const Carousel = ({ data }: CarouselTypeArray) => {
                             key={`idx${index}`}
                             className="flex flex-col relative mr-5"
                         >
-                            <img
+                            <Image
                                 src={item.imageUrl.src}
                                 alt={item.name}
+                                width={1120}
+                                height={400}
                                 className="w-full sm:h-[25rem] h-[10rem] object-cover"
                             />
                         </div>

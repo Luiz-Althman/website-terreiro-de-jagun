@@ -1,14 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 
-import FOTO_2 from '@/src/app/images/DSC_7171.jpg';
-import FOTO from '@/src/app/images/DSC_3061.jpg';
-import FOTO_3 from '@/src/app/images/DSC01085.jpg';
-import FOTO_4 from '@/src/app/images/DSC04974.jpg';
-import FOTO_5 from '@/src/app/images/DSC_7875.jpg';
-import FOTO_6 from '@/src/app/images/DSC02285.jpg';
-import FOTO_7 from '@/src/app/images/IMG_7027.jpg';
-import FOTO_8 from '@/src/app/images/DSC_7224.jpg';
-import FOTO_9 from '@/src/app/images/dodo1.jpg';
+import FOTO_2 from '@/src/app/images/oxum-iroko.jpg';
+// import FOTO from '@/src/app/images/DSC_3061-min.jpg';
+// import FOTO_3 from '@/src/app/images/DSC_3061-min.jpg';
+import FOTO_5 from '@/src/app/images/DSC_7875-min.jpg';
+// import FOTO_8 from '@/src/app/images/DSC_7224-min.jpg';
 import Projeto_nana from '@/src/app/images/projeto-nana.jpg';
 import Projeto_ogun from '@/src/app/images/projeto-ogun-3.jpg';
 import Projeto_yewa from '@/src/app/images/projeto-yewa.jpg';
@@ -18,42 +14,17 @@ import { CarouselType, MenuWithSubmenuType } from '../types';
 
 export const items: CarouselType[] = [
     {
-        imageUrl: FOTO_3,
-        name: 'Festa',
-    },
-    {
-        imageUrl: FOTO_8,
-        name: 'Festa',
-    },
-    {
         imageUrl: FOTO_2,
-        name: 'Festa',
-    },
-    {
-        imageUrl: FOTO_9,
-        name: 'Festa',
-    },
-
-    {
-        imageUrl: FOTO,
-        name: 'Festa',
-    },
-    {
-        imageUrl: FOTO_4,
         name: 'Festa',
     },
     {
         imageUrl: FOTO_5,
         name: 'Festa',
     },
-    {
-        imageUrl: FOTO_6,
-        name: 'Festa',
-    },
-    {
-        imageUrl: FOTO_7,
-        name: 'Festa',
-    },
+    // {
+    //     imageUrl: FOTO_3,
+    //     name: 'Festa',
+    // },
 ];
 
 export const Submenu: MenuWithSubmenuType[] = [

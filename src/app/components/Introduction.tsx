@@ -1,13 +1,12 @@
 'use client';
 
-/* eslint-disable @next/next/no-img-element */
-
 import { Carousel } from './CarouselComponent';
 
 import Brasao from '@/src/app/images/logo.jpeg';
 
 import { WhatsappFixed } from './WhatsappFixed';
 import { items } from '../mock';
+import Image from 'next/image';
 
 export function Introduction() {
     return (
@@ -16,9 +15,11 @@ export function Introduction() {
                 <h1 className="font-bold sm:my-3 uppercase">
                     Ilé Àiyé Ajagbòrò Igi Aşé Jagun
                 </h1>
-                <img
-                    src={Brasao.src}
+                <Image
+                    src={Brasao}
                     alt="Brasão do terreiro de Jagun"
+                    width={600}
+                    height={600}
                     className="w-full"
                 />
             </header>
@@ -43,7 +44,7 @@ export function Introduction() {
 
             <div id="o_terreiro" />
             <WhatsappFixed />
-            <Carousel data={items} />
+            {/* <Carousel data={items} /> */}
         </section>
     );
 }

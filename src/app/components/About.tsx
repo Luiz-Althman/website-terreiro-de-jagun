@@ -2,9 +2,10 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import FESTA from '@/src/app/images/DSC01155.jpg';
-import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998.jpg';
-import Terreiro_1 from '@/src/app/images/DSC_3337.jpg';
+import FESTA from '@/src/app/images/DSC01155-min.jpg';
+import FOTO_PAI_MAE_CIDALIA from '@/src/app/images/DSC_8998-min.jpg';
+import Terreiro_1 from '@/src/app/images/DSC_3337-min.jpg';
+import Image from 'next/image';
 
 export function About() {
     return (
@@ -33,16 +34,20 @@ export function About() {
                                 fotografia que ficam para a posteridade, bem
                                 como, na memoria de quem os viveu.
                             </p>
-                            <img
+                            <Image
                                 src={FOTO_PAI_MAE_CIDALIA.src}
                                 alt=""
+                                width={560}
+                                height={375}
                                 className="sm:w-1/2 w-full rounded-lg"
                             />
                         </div>
                         <div className="flex items-center sm:flex-row flex-col gap-0 sm:gap-4">
-                            <img
+                            <Image
                                 src={FESTA.src}
                                 alt=""
+                                width={560}
+                                height={375}
                                 className="sm:w-1/2 w-full rounded-lg"
                             />
                             <p className="text-[var(--white)] w-1/2 sm:text-left sm:w-1/2 w-full sm:py-0 py-5">

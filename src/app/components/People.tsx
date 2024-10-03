@@ -1,6 +1,7 @@
 import Pai from '@/src/app/images/foto-pai.jpg';
 import Nathalya from '@/src/app/images/foto-nathalya.jpg';
 import Mae from '@/src/app/images/foto-mae.jpg';
+import Image from 'next/image';
 
 export default function People() {
     return (
@@ -33,8 +34,10 @@ export default function People() {
                                 </span>{' '}
                                 Roberto Xáxa
                             </h2>
-                            <img
+                            <Image
                                 src={Pai.src}
+                                width={560}
+                                height={375}
                                 className="rounded-lg sm:w-1/2 w-full"
                                 alt="Foto do Babalorixá Roberto Xáxa"
                             />
@@ -74,8 +77,10 @@ export default function People() {
                                 Nathalya
                             </h2>
 
-                            <img
+                            <Image
                                 src={Nathalya.src}
+                                width={560}
+                                height={375}
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya N’Lasé Nathalya"
                             />
@@ -113,8 +118,10 @@ export default function People() {
                                 Luciane
                             </h2>
 
-                            <img
+                            <Image
                                 src={Mae.src}
+                                width={560}
+                                height={375}
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya Egbé Luciane"
                             />

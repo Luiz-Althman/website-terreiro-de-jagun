@@ -1,12 +1,15 @@
 import React from 'react';
 import { ProjectCardType } from '../../types';
+import Image from 'next/image';
 
 export function ProjectCard({ image, title, description }: ProjectCardType) {
     return (
         <div className="relative group">
-            <img
+            <Image
                 src={image.src}
                 alt={title}
+                width={550}
+                height={415}
                 className="w-full aspect-[4/3] object-cover transition-transform duration-300"
             />
             <div className="absolute m-3 inset-0 flex items-center justify-center sm:opacity-0 sm:group-hover:opacity-90 opacity-90 transition-opacity duration-300 bg-[var(--white)] bg-opacity-70 p-5">
