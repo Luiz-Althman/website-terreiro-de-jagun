@@ -20,12 +20,12 @@ html {
     scroll-behavior: smooth !important;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --background: #0a0a0a;
         --foreground: #ededed;
     }
-}
+} */
 
 body {
     background: var(--white);
@@ -88,28 +88,6 @@ p {
     .text-balance {
         text-wrap: balance;
     }
-}
-.slick-prev,
-.slick-next {
-    width: 44px !important; /* Largura das setas */
-    height: 44px !important; /* Altura das setas */
-    background-color: transparent !important; /* Cor de fundo transparente */
-    border-radius: 50% !important; /* Forma das setas */
-    z-index: 10 !important; /* Coloca as setas acima de outros elementos */
-}
-
-.slick-prev:before,
-.slick-next:before {
-    font-size: 2rem !important; /* Tamanho do ícone das setas */
-    color: var(--white) !important; /* Cor das setas */
-}
-
-.slick-prev {
-    left: 10px !important; /* Distância da borda esquerda */
-}
-
-.slick-next {
-    right: 10px !important; /* Distância da borda direita */
 }
 
 .shadow {

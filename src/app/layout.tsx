@@ -33,7 +33,7 @@ export default function RootLayout({
                     strategy="afterInteractive"
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV"
-                ></Script>
+                />
                 <Script id="my-custom-google-analict">
                     {`window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
