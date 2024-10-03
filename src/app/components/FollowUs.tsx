@@ -1,7 +1,7 @@
 export function FollowUs() {
     return (
         <section className="backgroundFollowUs my-10">
-            <div className="container mx-auto">
+            <div className="container mx-auto bg-[#000] bg-opacity-40 sm:bg-transparent">
                 <header className="flex flex-col justify-center items-center text-center py-5 ">
                     <h2 className="text-[var(--white)] uppercase">
                         Confira{' '}

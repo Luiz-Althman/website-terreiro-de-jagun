@@ -9,8 +9,8 @@ import Image from 'next/image';
 
 export function About() {
     return (
-        <section className="background my-10">
-            <div className="container py-5">
+        <section className="background my-10 ">
+            <div className="container py-5 bg-[#000] bg-opacity-40 sm:bg-transparent">
                 <header className="flex justify-center py-5">
                     <h2 className="uppercase text-[var(--white)]">
                         Sobre{' '}
@@ -19,9 +19,9 @@ export function About() {
                         </span>
                     </h2>
                 </header>
-                <div className="flex flex-col gap-4">
-                    <div className="flex items-center justify-between mt-5 sm:flex-row flex-col-reverse gap-0 sm:gap-4">
-                        <p className=" sm:w-1/2 w-full sm:py-0 py-5 text-[var(--white)]">
+                <div className="flex flex-col gap-4 ">
+                    <div className="flex items-center justify-between mt-5 sm:flex-row flex-col-reverse gap-0 sm:gap-4 ">
+                        <p className="sm:w-1/2 w-full sm:py-0 py-5 text-[var(--white)] ">
                             A relação entre o filho(a) e sua Mãe ou Pai de
                             Santo, por vezes, transcende a espiritualidade, se
                             confundindo e se aproximando de uma relação
@@ -49,7 +49,7 @@ export function About() {
                             height={375}
                             className="sm:w-[45%] w-full rounded-lg"
                         />
-                        <p className=" w-1/2 sm:text-left sm:w-1/2 w-full sm:py-0 py-5 text-[var(--white)]">
+                        <p className="w-1/2 sm:text-left sm:w-1/2 w-full sm:py-0 py-5 text-[var(--white)]">
                             Os festejos realizados durante o ano litúrgico,
                             seguindo o calendário estabelecido pela direção do
                             Terreiro, mantém o mesmo ritmo, expectativa,
