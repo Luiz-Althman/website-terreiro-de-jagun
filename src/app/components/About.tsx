@@ -83,6 +83,7 @@ export function About() {
                                 src={Terreiro_1.src}
                                 alt=""
                                 className="sm:w-1/2 w-full rounded-lg"
+                                loading="lazy"
                             />
                             <div id="projetos" />
                         </div>

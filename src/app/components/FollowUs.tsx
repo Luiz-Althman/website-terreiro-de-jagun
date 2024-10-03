@@ -31,6 +31,7 @@ export function FollowUs() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                         className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
+                        loading="lazy"
                     />
                     <iframe
                         src="https://www.youtube.com/embed/nDdSfBtG7jU"
@@ -38,9 +39,10 @@ export function FollowUs() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                         className="sm:w-1/2 w-full sm:h-[20rem] h-[18rem]"
+                        loading="lazy"
                     />
+                    <div id="people" />
                 </div>
-                <div id="people" />
             </div>
         </section>
     );
