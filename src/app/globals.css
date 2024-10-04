@@ -12,7 +12,7 @@
     --brown-300: #2c1800;
     --yellow: #fac847;
     --blue: #2929f8;
-    --black: #0000;
+    --black: #000000;
     --background-about: url('images/oxum-iroko.jpg');
     --background-followus: url('images/DSC00894.jpg');
 }
@@ -169,5 +169,21 @@ p {
     }
     50% {
         transform: translateY(-5px);
+    }
+}
+
+@keyframes bounceUpDown {
+    0%,
+    100% {
+        transform: translateY(-10px) translateX(-50%);
+    }
+    50% {
+        transform: translateY(0px) translateX(-50%);
+    }
+}
+
+@layer utilities {
+    .animate-bounce-up-down {
+        animation: bounceUpDown 1.5s ease-in-out infinite;
     }
 }

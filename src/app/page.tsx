@@ -5,7 +5,7 @@ import { Header } from './components/Header';
 import { Introduction } from './components/Introduction';
 import { About } from './components/About';
 // import { LocationMap } from './components/LocationMap';
-import { FollowUs } from './components/FollowUs';
+import FollowUs from './components/FollowUs/index';
 import People from './components/People';
 import { Projects } from './components/Projects';
 import { useTheme } from './context/ThemeProvider';
