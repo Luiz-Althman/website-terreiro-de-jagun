@@ -95,7 +95,7 @@ export const cards = [
         number: '02',
         paragraph:
             'Lives de bate papo feitas e gravadas pelo nosso Facebook e são posteriormente postadas em nosso canal.',
-        className: 'mt-8',
+        className: 'sm:mt-8 mt-32',
     },
     {
         icon: FaBowlFood,
@@ -103,6 +103,7 @@ export const cards = [
         number: '03',
         paragraph:
             'Apresentando a forma a qual preparamos, com passo a passo, as comidas de santo do terreiro seguindo nossa tradição.',
+        className: 'sm:mt-0 mt-32',
     },
     {
         icon: FaBook,
@@ -110,6 +111,6 @@ export const cards = [
         number: '04',
         paragraph:
             'Poemas de Orixás compostos pelo Babalorixá Roberto Xáxa,  gravados em um webclipe onde o intuito é de divulgar nossa religião, nossa cultura e nossa arte.',
-        className: 'mt-8',
+        className: 'sm:mt-8 mt-32',
     },
 ];
