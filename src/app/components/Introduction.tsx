@@ -28,7 +28,7 @@ export function Introduction() {
                     <span className="text-[var(--green-100)]">
                         Terreiro de Candomblé
                     </span>{' '}
-                    fundado em 2001.
+                    fundado em 2012.
                 </h3>
                 <div id="o_terreiro" />
 
