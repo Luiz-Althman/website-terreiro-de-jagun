@@ -15,7 +15,7 @@ export default function People() {
                         do terreiro
                     </h2>
                     <p className="text-center py-5 text-[1.15rem] font-semibold">
-                        Uma breve descrição dos(as) príncipais lideres do{' '}
+                        Uma breve descrição dos(as) principais lideres do{' '}
                         <a
                             href="https://www.instagram.com/terreirodejagun/"
                             target="_blank"
@@ -93,7 +93,7 @@ export default function People() {
                                 </h2>
                                 <p>
                                     <span className="font-bold">
-                                        Iyá Lasé Nathalya de Oxum
+                                        Iyá N’Lasé Nathalya de Oxum
                                     </span>
                                     , a Mãe do Axé. Com 23 anos de iniciada por
                                     mãe Cidália de Iroko, é a ela que caberá no
@@ -113,7 +113,7 @@ export default function People() {
                         <div className="flex sm:flex-row flex-col flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5">
                             <h2 className="sm:hidden flex">
                                 <span className="text-[var(--green-100)] pr-1">
-                                    Iya Egbé
+                                    Iyá Egbé
                                 </span>{' '}
                                 Luciane
                             </h2>
@@ -128,7 +128,7 @@ export default function People() {
                             <div className="">
                                 <h2 className="sm:flex hidden">
                                     <span className="text-[var(--green-100)] pr-1">
-                                        Iya Egbé{' '}
+                                        Iyá Egbé{' '}
                                     </span>
                                     Luciane
                                 </h2>

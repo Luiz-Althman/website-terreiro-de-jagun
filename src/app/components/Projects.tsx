@@ -13,7 +13,7 @@ export function Projects() {
                     PROJETOS
                 </h2>
                 <p className="py-5 text-[1.15rem] font-semibold">
-                    Alguns dos nosso projetos pelo{' '}
+                    Alguns dos nossos projetos pelo{' '}
                     <a
                         href="https://www.instagram.com/centrocultural.opanije/"
                         className="text-[var(--green-100)] relative inline-block hover:opacity-50 after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--green-100)] after:transition-all after:duration-500 hover:after:w-full"

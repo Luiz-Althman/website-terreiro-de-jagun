@@ -94,7 +94,7 @@ export const cards = [
         title: 'Lives gravadas',
         number: '02',
         paragraph:
-            'Lives de bate papo feitas e gravadas pelo nosso Facebook e são posteriormente postadas em nosso canal.',
+            'Lives de bate papo feitas e gravadas pelo nosso Facebook, que são posteriormente postadas em nosso canal.',
         className: 'sm:mt-8 mt-32',
     },
     {
@@ -102,7 +102,7 @@ export const cards = [
         title: 'Comidas de santo',
         number: '03',
         paragraph:
-            'Apresentando a forma a qual preparamos, com passo a passo, as comidas de santo do terreiro seguindo nossa tradição.',
+            'Apresentando a forma a qual preparamos, com passo à passo, as comidas de santo do Terreiro, seguindo nossa tradição.',
         className: 'sm:mt-0 mt-32',
     },
     {
@@ -110,7 +110,7 @@ export const cards = [
         title: 'Poemas em vídeo',
         number: '04',
         paragraph:
-            'Poemas de Orixás compostos pelo Babalorixá Roberto Xáxa,  gravados em um webclipe onde o intuito é de divulgar nossa religião, nossa cultura e nossa arte.',
+            'Poemas de Orixás compostos pelo Babalorixá Roberto Xáxa, gravados em webclipe onde o intuito é divulgar nossa religião, nossa cultura e nossa arte.',
         className: 'sm:mt-8 mt-32',
     },
 ];

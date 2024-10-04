@@ -29,7 +29,7 @@ export function Footer() {
                             />
                         </a>
                         <p className="sm:pr-3">
-                            Terreiro de candomblé, fundado em 2001 em Franco da
+                            Terreiro de Candomblé, fundado em 2001 em Franco da
                             Rocha. Dirigido pelo Babalorixá Roberto Xaxá, filho
                             de Mãe Cidália de Iroko.
                         </p>
