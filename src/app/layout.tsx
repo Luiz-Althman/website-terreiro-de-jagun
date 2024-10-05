@@ -30,11 +30,11 @@ export default function RootLayout({
             <head>
                 <Script
                     id="my-custom-google-analicts"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-JSX7L0BTYV"
                 />
-                <Script id="my-custom-google-analict">
+                <Script id="my-custom-google-analict" strategy="lazyOnload">
                     {`window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
