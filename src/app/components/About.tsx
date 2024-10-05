@@ -40,6 +40,7 @@ export function About() {
                                 width={560}
                                 height={375}
                                 className="sm:w-[45%] w-full rounded-lg"
+                                priority={true}
                             />
                         </div>
                         <div className="flex items-center justify-between sm:flex-row flex-col gap-0 sm:gap-4">
