@@ -21,6 +21,7 @@ export function Introduction() {
                     width={600}
                     height={600}
                     className="w-full"
+                    priority={true}
                 />
             </header>
             <article className="mt-5">
