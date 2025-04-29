@@ -1,6 +1,5 @@
 import Cards from '../Cards';
 
-
 export default function FollowUs() {
     return (
         <section className="backgroundFollowUs my-10">
