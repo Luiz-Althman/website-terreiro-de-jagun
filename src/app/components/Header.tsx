@@ -1,5 +1,4 @@
 'use client';
-/* eslint-disable @next/next/no-img-element */
 
 import { FaInstagram, FaFacebook, FaYoutube, FaTiktok } from 'react-icons/fa';
 
@@ -32,48 +31,20 @@ export function Header() {
                         />
                     </a>
                 </div>
-                <ul className="hidden sm:flex justify-center gap-5 text-[1.15rem] font-semibold ">
-                    <li className="cursor:pointer">
-                        <a
-                            className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="#o_terreiro"
-                        >
-                            O Terreiro
-                        </a>
-                    </li>
-                    <li className="cursor:pointer">
-                        <a
-                            className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="#people"
-                        >
-                            Quem somos
-                        </a>
-                    </li>
-
-                    <a
-                        href="https://www.instagram.com/centrocultural.opanije/"
-                        className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                        target="_blank"
-                    >
-                        Centro Cultural
-                    </a>
-                    <a
-                        href="https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20Gostaria%20de%20agendar%20um%20jogo%20de%20b%C3%BAzios."
-                        className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                        target="_blank"
-                    >
-                        Agende seu Jogo
-                    </a>
-
-                    <li className="cursor:pointer">
-                        <a
-                            className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
-                            href="https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais."
-                            target="_blank"
-                        >
-                            Contato
-                        </a>
-                    </li>
+                <ul className="hidden sm:flex justify-center gap-5 text-xl font-semibold ">
+                    {Submenu.map(
+                        (item, index) =>
+                            item.isDesktop && (
+                                <a
+                                    className="relative inline-block text-[var(--brown-300)] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[var(--brown-300)] after:transition-all after:duration-500 hover:after:w-full"
+                                    href={item.link}
+                                    key={index}
+                                    target={item.outPage ? '_blank' : ''}
+                                >
+                                    {item.title}
+                                </a>
+                            )
+                    )}
                 </ul>
                 <ul className="hidden sm:flex justify-center gap-5 text-[1rem] font-semibold">
                     <li className="cursor:pointer hover:opacity-20">

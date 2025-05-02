@@ -11,6 +11,7 @@ import { Projects } from './components/Projects';
 import { useTheme } from './context/ThemeProvider';
 import React, { useState, useEffect } from 'react';
 import Preloader from './components/Preloader';
+import { JardimEsoterico } from './components/JardimEsoterico';
 
 export default function App() {
     const [loading, setLoading] = useState(true);
@@ -67,6 +68,7 @@ export default function App() {
                         <About />
                         <Projects />
                         <FollowUs />
+                        <JardimEsoterico />
                         <People />
                         <Footer />
                     </div>

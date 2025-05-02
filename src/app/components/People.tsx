@@ -41,7 +41,7 @@ export default function People() {
                                 className="rounded-lg sm:w-1/2 w-full"
                                 alt="Foto do Babalorixá Roberto Xáxa"
                             />
-                            <div className="">
+                            <div className="sm:space-y-4">
                                 <h2 className="sm:flex hidden">
                                     <span className="text-[var(--green-100)] pr-1">
                                         Babalorixá
@@ -69,7 +69,7 @@ export default function People() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col sm:flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5">
+                        <div className="flex flex-col sm:flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5 ">
                             <h2 className="sm:hidden flex">
                                 <span className="text-[var(--green-100)] pr-1">
                                     Iya N’Lasé
@@ -84,7 +84,7 @@ export default function People() {
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya N’Lasé Nathalya"
                             />
-                            <div className="">
+                            <div className="sm:space-y-4">
                                 <h2 className="sm:flex hidden">
                                     <span className="text-[var(--green-100)] pr-1">
                                         Iya N’Lasé
@@ -110,7 +110,7 @@ export default function People() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex sm:flex-row flex-col flex-row-reverse justify-center items-center gap-4 sm:mt-0 mt-5">
+                        <div className="flex sm:flex-row flex-col justify-center items-center gap-4 sm:mt-0 mt-5">
                             <h2 className="sm:hidden flex">
                                 <span className="text-[var(--green-100)] pr-1">
                                     Iyá Egbé
@@ -125,7 +125,7 @@ export default function People() {
                                 className="sm:w-1/2 w-full rounded-lg"
                                 alt="Foto da Iya Egbé Luciane"
                             />
-                            <div className="">
+                            <div className="sm:space-y-4">
                                 <h2 className="sm:flex hidden">
                                     <span className="text-[var(--green-100)] pr-1">
                                         Iyá Egbé{' '}

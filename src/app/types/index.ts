@@ -13,6 +13,7 @@ export interface MenuWithSubmenuType {
     link: string;
     title: string;
     outPage?: boolean;
+    isDesktop?: boolean;
 }
 export interface MenuWithSubmenuTypeResponse {
     data: MenuWithSubmenuType[];

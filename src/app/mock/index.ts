@@ -26,31 +26,43 @@ export const Submenu: MenuWithSubmenuType[] = [
         link: '#o_terreiro',
         title: 'O Terreiro',
         outPage: false,
+        isDesktop: true,
     },
     {
         link: '#people',
         title: 'Quem somos',
         outPage: false,
+        isDesktop: true,
     },
     {
         link: '#projetos',
         title: 'Projetos',
         outPage: false,
+        isDesktop: true,
     },
     {
         link: '#redes_sociais',
         title: 'Redes sociais',
         outPage: false,
+        isDesktop: false,
     },
     {
         link: 'https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1,%20Gostaria%20de%20agendar%20um%20jogo%20de%20b%C3%BAzios.',
         title: 'Agende seu jogo',
         outPage: true,
+        isDesktop: true,
+    },
+    {
+        link: '#jardim_esoterico',
+        title: 'Jardim esotérico',
+        outPage: false,
+        isDesktop: true,
     },
     {
         link: 'https://api.whatsapp.com/send?phone=5511942584682&text=Ol%C3%A1.%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais.',
         title: 'Contato',
         outPage: true,
+        isDesktop: false,
     },
 ];
 
